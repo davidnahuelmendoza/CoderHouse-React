@@ -1,13 +1,13 @@
 
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './containers/ItemListContainer/ItemListContainer';
 
 function App() {
   return (
     <div>
-      <h1>App</h1>
       <NavBar />
-      
+      <ItemListContainer greeting="Bienvenido a mi app de React" />
       </div>
   )
 }
