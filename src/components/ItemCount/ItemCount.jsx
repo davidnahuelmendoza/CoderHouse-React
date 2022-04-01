@@ -16,11 +16,11 @@ function ItemCount({initial, stock}) {
     <div>
         <div>
             <button
-            onClick={Add(-1)}
+            onClick={() => Add(-1)}
             disabled={qty === initial ? true : null}>-</button>
             <span>{qty}</span>
             <button
-            onClick={Add(+1)}
+            onClick={() => Add(+1)}
             disabled={qty === stock ? true : null}>+</button>
         </div>
         <div>
